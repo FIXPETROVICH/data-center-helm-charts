@@ -365,7 +365,7 @@ jira:
     
     # -- The type of K8s service to use for Jira
     #
-    type: ClusterIP
+    type: NodePort
 
     # -- Use specific loadBalancerIP. Only applies to service type LoadBalancer.
     #
